@@ -1,0 +1,47 @@
+.form-control{
+    border : none !important;
+    border-bottom-style : ridge !important;
+    border-radius: 0px !important;
+    padding: 0% !important;
+    box-sizing: none !important;
+    background-color: #d9d9d9 !important;
+    border-color: #d9d9d9 !important;
+  }
+  
+  body{
+  margin :100px !important;
+  }
+  
+  .form-control:hover{
+  background-color: #d9d9d9 !important;
+  outline: #d9d9d9 !important;
+  }
+  #atur-button{
+    /* height: 150px !important; */
+    padding-top: 30px !important;
+    padding-bottom: 50px !important;
+  }
+  #lebar-button{
+    padding-left: 50px ;
+    padding-right: 50px;
+  }
+  #judul{
+    padding-top: 60px !important;
+  }
+  #container{
+    border-radius: 50px !important;
+    padding: 20px !important;
+    padding-top: 30px !important;
+    padding-left: 30px !important;
+  }
+  .lebar-input{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  
+  /* .datepicker{
+    top: 40% !important;
+    left: 38% !important; 
+    z-index: 10 !important; 
+    display: block !important;
+  } */

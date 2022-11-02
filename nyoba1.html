@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman login</title>
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="nyoba1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<body>
+        <div class="container justify-content-center" >
+          <div class="row justify-content-center ">
+              <div class="col-md-4 "style="border : 2px ridge transparant;background-color : #d9d9d9"id="container">
+                <div id="judul">
+                  <h6 class="text-center">SaveYourMoney</h6>
+                  <h3 class="text-center">Create Account</h3>
+                </div>
+                  <form action="/action_page.php">
+                      <div class="form-group lebar-input">
+                          <input type="text" class="form-control" id="Name"placeholder="Name">
+                        </div>
+                        <div class="form-group lebar-input">
+                          <input type="email" class="form-control" id="Email"placeholder="Email">
+                        </div>
+                        <div class="form-group lebar-input">
+                          <input type="password" class="form-control" id="password"placeholder="Password">
+                        </div>
+                        <div class="form-group lebar-input input-group date">
+                            <input id="datepicker" class="form-control" id="datepicker"placeholder="Date of birth">
+                        </div>
+                        <div class="container text-center"id="atur-button">
+                          <button type="submit" class="btn btn-dark rounded-pill"id ="lebar-button">Sign up</button>
+                          <p class="font-weight-lighter">Already have an account?sign in</p>
+                        </div>
+                  </form>
+              </div>
+            </div>
+            <script>
+                $('#datepicker').datepicker({
+                    uiLibrary: 'bootstrap4'
+                });
+            </script>
+</body>
+</html>
